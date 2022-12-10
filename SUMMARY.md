@@ -4,7 +4,7 @@
 
 ## Career Growth
 
-* [The Staff Engineer's Path](career-growth/the-staff-engineers-path.md)
+* [The Staff Engineer's Path](page-1.md)
 * [Impact Players: How to Take the Lead, Play Bigger, and Multiply Your Impact](career-growth/impact-players-how-to-take-the-lead-play-bigger-and-multiply-your-impact.md)
 
 ## Software Engineering
