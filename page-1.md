@@ -25,3 +25,18 @@ description: by Tanya Reilly
 * <mark style="background-color:yellow;">**Solvers**</mark> - wade into one difficult problem at a time.
 * <mark style="background-color:yellow;">**Right hands**</mark> - add leadership bandwidth to an organisation.
 
+
+
+### The three maps
+
+* Locator map
+  * your place in the wider organization.
+  * helps to not be biased towards your team's projects.
+  * helps you to make sure the teams you work with really understand their purpose in the organization, who their customers are, and how their work affects other people.
+* Topographical map
+  * helps navigating the terrain.
+  * helps to highlight the friction and gaps between teams and open up the paths of communication.
+  * includes understanding your organization's "personality" and how your leaders prefer to work, clarifying how decisions are made.
+* Treasure map
+  * shows where you're going and lays out some of the stops on the journey.
+  * helps you to make sure everyone knows exactly what they're trying to achieve and why.

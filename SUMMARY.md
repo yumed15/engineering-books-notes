@@ -6,11 +6,11 @@
 
 * [The Staff Engineer's Path](page-1.md)
 * [Impact Players: How to Take the Lead, Play Bigger, and Multiply Your Impact](career-growth/impact-players-how-to-take-the-lead-play-bigger-and-multiply-your-impact.md)
+* [Staff Engineer: leadership beyond the management track](career-growth/staff-engineer-leadership-beyond-the-management-track.md)
 
 ## Software Engineering
 
 * [Software Engineering at Google: Lessons Learned from Programming Over Time](software-engineering/software-engineering-at-google-lessons-learned-from-programming-over-time.md)
-* [Staff Engineer: leadership beyond the management track](software-engineering/staff-engineer-leadership-beyond-the-management-track.md)
 
 ## System Architecture
 
