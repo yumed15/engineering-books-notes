@@ -44,20 +44,25 @@ description: by Will Larson
 * <mark style="background-color:yellow;">**getting work finished/unblocking**</mark> - A surprising number of projects are one small change away from succeeding, one quick modification away from unlocking a new opportunity, or one conversation away from consensus. I think of making those <mark style="color:yellow;">**small changes, quick modifications, and short conversations as editing your team’s approach**</mark>.
   * One special sort of editing is helping finish a project that just can’t quite close itself out. Often you’ll have a talented engineer earlier in their career who is already doing the work but can’t quite create buy-in or figure out how to rescope their project into finishable work. It’s surprisingly common that coaching a teammate on how to tweak a project into something finishable and then lending them your privilege to budge the right friction points will transform a six-month slog into a two-week sprint with almost an identical impact.
 * <mark style="background-color:yellow;">**manage technical quality**</mark>
-  * fix the hot spots that are causing immediate problems&#x20;
-  * adopt best practices that are known to improve quality&#x20;
-  * prioritize leverage points that preserve quality as your software changes&#x20;
-  * align technical vectors in how your organization changes software&#x20;
-  * measure technical quality to guide deeper investment&#x20;
-  * spin up a technical quality team to create systems and tools for quality&#x20;
-  * run a quality program to measure, track and create accountability
-
-{% hint style="warning" %}
-* measure the problem at hand, identify where the bulk of the issue occurs, and focus on precisely that area.
-* limit yourself to a single best practice rollout at any given time.
-{% endhint %}
-
-* quality leverage points, and the three most impactful points are interfaces, stateful systems, and data models.
+  * <mark style="color:yellow;">**fix the hot spots**</mark> that are causing immediate problems&#x20;
+  * <mark style="color:yellow;">**adopt best practices**</mark> that are known to improve quality&#x20;
+    * measure the problem at hand, identify where the bulk of the issue occurs, and focus on precisely that area.
+    * limit yourself to a single best practice rollout at any given time.
+  * <mark style="color:yellow;">**align technical vectors**</mark> in how your organization changes software&#x20;
+  * <mark style="color:yellow;">**measure technical quality**</mark> to guide deeper investment&#x20;
+  * <mark style="color:yellow;">**spin up a technical quality team**</mark> to create systems and tools for quality&#x20;
+  * <mark style="color:yellow;">**run a quality program**</mark> to measure, track and create accountability
+  * <mark style="color:yellow;">**invest in quality leverage points**</mark>. The three most impactful points are:&#x20;
+    * <mark style="color:yellow;">**interfaces**</mark> = contracts between systems
+      * Effective interfaces decouple clients from the encapsulated implementation.
+      * Durable interfaces expose all the underlying essential complexity and none of the underlying accidental complexity.&#x20;
+      * Delightful interfaces are eagerly discerning, discerningly eager.
+    * <mark style="color:yellow;">**state**</mark> - gets complex faster than other systems and has an inertia that makes it relatively expensive to improve later.&#x20;
+      * As you incorporate business obligations around security, privacy, and compliance, changing your stateful systems becomes even more challenging.
+    * <mark style="color:yellow;">**data models**</mark> = the intersection of the interfaces and state, constraining your stateful system’s capabilities down to what your application considers legal.&#x20;
+      * A good data model is rigid: it only exposes what it genuinely supports and prevents invalid states’ expression.&#x20;
+      * A good data model is tolerant of evolution over time.&#x20;
+      * Effective data models are not even slightly clever.
 
 #### What to avoid
 
@@ -123,6 +128,18 @@ How
   * It’s very unlikely that you personally have all the relevant context to write the best design document on a given topic.&#x20;
   * Before getting far into the process, collect input from folks with relevant perspectives, particularly those who will rely on the output of your design document. However, be skeptical of carrying that collaborative.
   * Look for controversial decisions that came up in multiple designs, particularly those that were hard to agree on.
+
+#### Aligning technical decisions
+
+* <mark style="background-color:yellow;">**Give direct feedback**</mark>&#x20;
+  * start with simply giving direct feedback to the individuals who you believe are misaligned. As much as they’re missing your context, you’re missing theirs, and a quick conversation can often prevent years of unnecessary process.&#x20;
+* <mark style="background-color:yellow;">**Refine your engineering strategy from tech spec, to strategy, to vision**</mark>&#x20;
+  * <mark style="color:yellow;">**Encapsulate your approach in your workflows and tooling**</mark>. Documentation of a clear vision is helpful, but some folks simply won’t study your document.&#x20;
+  * Deliberate tools <mark style="color:yellow;">**create workflows that nurture habits**</mark> far better than training and documentation. For example, provisioning a new service might require going to a website that requires you to add a link to a technical spec for that service. Another approach might be blocking deploys to production if the service doesn’t have an on-call setup established, with someone currently on-call, and that individual must also have their push notifications enabled.
+* <mark style="background-color:yellow;">**Train new team members during their onboarding**</mark>. Changing folks’ habits after they’ve formed is quite challenging, which is frustrating if you’re attempting to get folks to adopt new practices. However, if you get folks pointed in the right direction when they join, then that habit-momentum will work in favor of remaining aligned.&#x20;
+* <mark style="background-color:yellow;">**Use Conway’s Law**</mark> - Conway’s Law argues that organizations build software that reflects their structure. If your organization is poorly structured, this will lead to tightly coupled or tangled software. However, it’s also a force for quality if your organization’s design is an effective one.
+* <mark style="background-color:yellow;">**Curate technology change using architecture reviews, investment strategies, and a structured process for adopting new tools**</mark>. Most misalignment comes from missing context, and these are the organizational leverage points to inject context into decision-making. Many organizations start here, but it’s the last box of tools that I recommend opening. How can you provide consistent architecture reviews without an articulated vision? Why tell folks your strategy after they’ve designed something rather than in their onboarding process?
+* <mark style="background-color:yellow;">**Trust metrics over intuition**</mark> - You should have a way to measure every project.&#x20;
 
 #### Resources
 
